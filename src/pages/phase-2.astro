@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PhaseChecklist from '../components/PhaseChecklist.jsx';
+import checklistData from '../data/checklist-data.json';
+
+// Notice we select phase1 here
+const phaseData = checklistData.phase2;
+---
+
+<Layout title={phaseData.title}>
+  <PhaseChecklist 
+    client:load 
+    phaseKey="phase2" 
+    phaseData={phaseData} 
+  />
+</Layout>

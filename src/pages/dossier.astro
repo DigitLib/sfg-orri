@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DossierView from '../components/DossierView.jsx';
+---
+<Layout title="Governance Dossier">
+  <DossierView client:only="react" />
+</Layout>

@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PhaseChecklist from '../components/PhaseChecklist.jsx';
+import checklistData from '../data/checklist-data.json';
+
+const phaseData = checklistData.phase0;
+---
+
+<Layout title={phaseData.title}>
+  <!-- 
+    The client:load directive tells Astro to send the JavaScript 
+    for this React component to the browser immediately. 
+  -->
+  <PhaseChecklist 
+    client:load 
+    phaseKey="phase0" 
+    phaseData={phaseData} 
+  />
+</Layout>

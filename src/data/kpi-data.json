@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2026-07-05",
+  "summaryStats": {
+    "projectsScreened": 12,
+    "escalationsResolved": 8,
+    "staffTrained": 25
+  },
+  "kpiTable": [
+    {
+      "area": "ORRI uptake",
+      "indicator": "Number of projects screened through the ORRI Tool",
+      "frequency": "Quarterly",
+      "target": "All relevant projects",
+      "status": "Green",
+      "followUp": "On track. 12 projects screened this quarter."
+    },
+    {
+      "area": "Review quality",
+      "indicator": "Number of ethics, privacy, rights, AI or governance reviews completed",
+      "frequency": "Quarterly",
+      "target": "As defined by project",
+      "status": "Amber",
+      "followUp": "Privacy reviews lagging in 2 projects. Reminders sent."
+    },
+    {
+      "area": "Documentation",
+      "indicator": "Share of projects with phase-gate records",
+      "frequency": "At each phase",
+      "target": "All relevant projects",
+      "status": "Green",
+      "followUp": "100% compliance in current phase."
+    },
+    {
+      "area": "Escalation",
+      "indicator": "Number of escalations by type",
+      "frequency": "Quarterly",
+      "target": "Pattern tracking",
+      "status": "Red",
+      "followUp": "High volume of AI-related escalations. Need to update guidelines."
+    },
+    {
+      "area": "Capacity building",
+      "indicator": "Number of staff or participants trained",
+      "frequency": "After training",
+      "target": "As defined by project",
+      "status": "Green",
+      "followUp": "Exceeded target (25 trained vs 20 planned)."
+    }
+  ]
+}

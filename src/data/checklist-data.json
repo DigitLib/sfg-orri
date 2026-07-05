@@ -1,0 +1,156 @@
+{
+  "phase0": {
+    "en": {
+      "title": "Phase 0: Preliminary Orientation and Project Initiation",
+      "purpose": "Understand whether the proposed activity has a clear purpose and falls within the scope of responsible digital governance.",
+      "questions": [
+        { "id": "p0_q1", "category": "Project Purpose", "text": "Is the general purpose of the digitalization activity clearly stated?" },
+        { "id": "p0_q2", "category": "Project Purpose", "text": "Has the institution identified the expected benefit of the activity (e.g., preservation, public access, research)?" },
+        { "id": "p0_q3", "category": "Initial Scope", "text": "Are there any materials that may be sensitive, contested, or connected to vulnerable groups?" },
+        { "id": "p0_q4", "category": "Initial Legal", "text": "Is there any indication that personal data, privacy, image rights, or data protection rules may apply?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 0: Preliminarna orijentacija i pokretanje projekta",
+      "purpose": "Razumevanje da li predložena aktivnost ima jasnu svrhu i da li spada u okvire odgovornog digitalnog upravljanja.",
+      "questions": [
+        { "id": "p0_q1", "category": "Svrha projekta", "text": "Da li je opšta svrha aktivnosti digitalizacije jasno navedena?" },
+        { "id": "p0_q2", "category": "Svrha projekta", "text": "Da li je institucija identifikovala očekivanu korist od aktivnosti (npr. očuvanje, javni pristup, istraživanje)?" },
+        { "id": "p0_q3", "category": "Početni obim", "text": "Da li postoje materijali koji mogu biti osetljivi, sporni ili povezani sa ranjivim grupama?" },
+        { "id": "p0_q4", "category": "Početna pravna pitanja", "text": "Da li postoji bilo kakva naznaka da se mogu primeniti pravila o ličnim podacima, privatnosti, pravima na sliku ili zaštiti podataka?" }
+      ]
+    }
+  },
+  "phase1": {
+    "en": {
+      "title": "Phase 1: Project Planning and Governance Setup",
+      "purpose": "Define the project’s objectives, scope, resources, responsibilities, technical approach, and ethical review needs.",
+      "questions": [
+        { "id": "p1_q1", "category": "Objectives & Use Cases", "text": "Are the project objectives and intended use cases clearly written?" },
+        { "id": "p1_q2", "category": "Governance", "text": "Is there an identified project owner and a clear approval route for decisions?" },
+        { "id": "p1_q3", "category": "Rights & Licensing", "text": "Is there a plan for checking the rights status of the materials?" },
+        { "id": "p1_q4", "category": "AI & Digital Tools", "text": "Will AI or automated tools be used, and is human oversight planned?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 1: Planiranje projekta i uspostavljanje upravljanja",
+      "purpose": "Definisanje ciljeva, obima, resursa, odgovornosti, tehničkog pristupa i potreba za etičkom proverom projekta.",
+      "questions": [
+        { "id": "p1_q1", "category": "Ciljevi i slučajevi upotrebe", "text": "Da li su ciljevi projekta i planirani slučajevi upotrebe jasno definisani?" },
+        { "id": "p1_q2", "category": "Upravljanje", "text": "Da li postoji identifikovani nosilac projekta i jasan proces odobravanja odluka?" },
+        { "id": "p1_q3", "category": "Prava i licenciranje", "text": "Da li postoji plan za proveru statusa autorskih prava i srodnih prava na materijalima?" },
+        { "id": "p1_q4", "category": "AI i digitalni alati", "text": "Da li će se koristiti veštačka inteligencija (AI) ili automatizovani alati, i da li je planiran ljudski nadzor?" }
+      ]
+    }
+  },
+  "phase2": {
+    "en": {
+      "title": "Phase 2: Selection of Objects and Materials",
+      "purpose": "Ensure that selection is justified, documented, proportionate, and aligned with the institution’s mission.",
+      "questions": [
+        { "id": "p2_q1", "category": "Selection Rationale", "text": "Is the selection connected to the institution’s mission, collection strategy, or public role?" },
+        { "id": "p2_q2", "category": "Cultural Sensitivity", "text": "Are the selected materials connected to sensitive, contested, sacred, or marginalized heritage?" },
+        { "id": "p2_q3", "category": "Preservation", "text": "Has the physical or technical condition of the selected materials been assessed?" },
+        { "id": "p2_q4", "category": "Stakeholder Involvement", "text": "Should affected communities, subject experts, or external advisors be consulted before digitization?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 2: Izbor objekata i materijala",
+      "purpose": "Osigurati da je izbor opravdan, dokumentovan, srazmeran i usklađen sa misijom institucije.",
+      "questions": [
+        { "id": "p2_q1", "category": "Razlog za izbor", "text": "Da li je izbor materijala povezan sa misijom institucije, strategijom kolekcije ili javnom ulogom?" },
+        { "id": "p2_q2", "category": "Kulturna osetljivost", "text": "Da li su izabrani materijali povezani sa osetljivim, spornim, svetim ili marginalizovanim nasleđem?" },
+        { "id": "p2_q3", "category": "Očuvanje (Konzervacija)", "text": "Da li je procenjeno fizičko ili tehničko stanje izabranih materijala?" },
+        { "id": "p2_q4", "category": "Uključivanje zainteresovanih strana", "text": "Da li bi pre digitalizacije trebalo konsultovati pogođene zajednice, stručnjake za predmet ili spoljne savetnike?" }
+      ]
+    }
+  },
+  "phase3": {
+    "en": {
+      "title": "Phase 3: Digitization Preparation, Capture and Master File Creation",
+      "purpose": "Protect the original materials, produce reliable digital files, and preserve evidence of how the files were created.",
+      "questions": [
+        { "id": "p3_q1", "category": "Preparation & Condition", "text": "Has the condition of each material category been reviewed before capture begins?" },
+        { "id": "p3_q2", "category": "Capture Method", "text": "Has the institution selected the capture method according to material type, condition, and intended use?" },
+        { "id": "p3_q3", "category": "Master File Protection", "text": "Are master files stored securely and protected from accidental editing, overwriting, or compression?" },
+        { "id": "p3_q4", "category": "Metadata Creation", "text": "Is basic descriptive, technical, and preservation metadata recorded where appropriate?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 3: Priprema za digitalizaciju, snimanje i kreiranje master fajlova",
+      "purpose": "Zaštititi originalne materijale, proizvesti pouzdane digitalne fajlove i sačuvati dokaze o tome kako su fajlovi kreirani.",
+      "questions": [
+        { "id": "p3_q1", "category": "Priprema i stanje", "text": "Da li je pregledano stanje svake kategorije materijala pre početka procesa snimanja?" },
+        { "id": "p3_q2", "category": "Metod snimanja", "text": "Da li je institucija izabrala metod snimanja u skladu sa tipom materijala, njegovim stanjem i planiranom upotrebom?" },
+        { "id": "p3_q3", "category": "Zaštita master fajlova", "text": "Da li su master fajlovi bezbedno sačuvani i zaštićeni od slučajnog uređivanja, prepisivanja ili kompresije?" },
+        { "id": "p3_q4", "category": "Kreiranje metapodataka", "text": "Da li su zabeleženi osnovni deskriptivni, tehnički i prezervacijski metapodaci tamo gde je to prikladno?" }
+      ]
+    }
+  },
+  "phase4": {
+    "en": {
+      "title": "Phase 4: Preparation for Publication and Content Enrichment",
+      "purpose": "Make digitized materials usable while preserving the integrity of the master files and maintaining responsibility for context.",
+      "questions": [
+        { "id": "p4_q1", "category": "Working Copies", "text": "Has the institution created working copies from the master files before any editing or enrichment?" },
+        { "id": "p4_q2", "category": "Integrity & Context", "text": "Are damaged, incomplete, enhanced, or reconstructed materials clearly identified for users?" },
+        { "id": "p4_q3", "category": "AI-Supported Enrichment", "text": "If AI is used for tagging/transcription, is human review required before outputs are accepted?" },
+        { "id": "p4_q4", "category": "Accessibility", "text": "Are text alternatives, captions, subtitles, or accessible formats planned where appropriate?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 4: Priprema za objavljivanje i obogaćivanje sadržaja",
+      "purpose": "Učiniti digitalizovane materijale upotrebljivim uz očuvanje integriteta master fajlova i održavanje odgovornosti za kontekst.",
+      "questions": [
+        { "id": "p4_q1", "category": "Radne kopije", "text": "Da li je institucija kreirala radne kopije od master fajlova pre bilo kakvog uređivanja ili obogaćivanja?" },
+        { "id": "p4_q2", "category": "Integritet i kontekst", "text": "Da li su oštećeni, nepotpuni, poboljšani ili rekonstruisani materijali jasno označeni za korisnike?" },
+        { "id": "p4_q3", "category": "AI-podržano obogaćivanje", "text": "Ako se AI koristi za automatsko označavanje/transkripciju, da li je obavezan ljudski pregled pre prihvatanja rezultata?" },
+        { "id": "p4_q4", "category": "Pristupačnost", "text": "Da li su planirane tekstualne alternative, opisi, titlovi ili pristupačni formati tamo gde je to prikladno?" }
+      ]
+    }
+  },
+  "phase5": {
+    "en": {
+      "title": "Phase 5: Online Publication, Access and Reuse",
+      "purpose": "Ensure publication is lawful, responsible, accessible, transparent, and aligned with the institution’s public mission.",
+      "questions": [
+        { "id": "p5_q1", "category": "Access Model", "text": "Is it clear whether the materials will be made available to the general public, researchers, or restricted groups?" },
+        { "id": "p5_q2", "category": "Rights & Licensing", "text": "Has the institution confirmed it has the right to publish the materials online and defined reuse conditions?" },
+        { "id": "p5_q3", "category": "Transparency", "text": "Does the platform clearly explain what the materials are, their context, and any limitations?" },
+        { "id": "p5_q4", "category": "Feedback & Correction", "text": "Is there a visible way for users to contact the institution about errors, rights claims, or cultural sensitivity concerns?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 5: Onlajn objavljivanje, pristup i ponovna upotreba",
+      "purpose": "Osigurati da objavljivanje bude zakonito, odgovorno, pristupačno, transparentno i usklađeno sa javnom misijom institucije.",
+      "questions": [
+        { "id": "p5_q1", "category": "Model pristupa", "text": "Da li je jasno definisano da li će materijali biti dostupni široj javnosti, istraživačima ili ograničenim grupama korisnika?" },
+        { "id": "p5_q2", "category": "Prava i licenciranje", "text": "Da li je institucija potvrdila da ima pravo da objavi materijale na mreži i da li su definisani uslovi za ponovnu upotrebu?" },
+        { "id": "p5_q3", "category": "Transparentnost", "text": "Da li platforma jasno objašnjava šta su materijali, njihov kontekst i eventualna ograničenja?" },
+        { "id": "p5_q4", "category": "Povratne informacije i ispravke", "text": "Da li postoji jasno vidljiv način da korisnici kontaktiraju instituciju u vezi sa greškama, potraživanjima autorskih prava ili zabrinutostima zbog kulturne osetljivosti?" }
+      ]
+    }
+  },
+  "phase6": {
+    "en": {
+      "title": "Phase 6: Data Management, Maintenance and Long-Term Stewardship",
+      "purpose": "Ensure digitized materials remain findable, accessible, protected, and responsibly governed over time.",
+      "questions": [
+        { "id": "p6_q1", "category": "Data Management Plan", "text": "Is it clear who is responsible for maintaining the materials and records after the project team completes its work?" },
+        { "id": "p6_q2", "category": "Storage & Preservation", "text": "Are backup copies maintained and regularly checked for integrity and restorability?" },
+        { "id": "p6_q3", "category": "Rights Review Over Time", "text": "Is there a process for handling rights holder claims, permission requests, or takedowns after publication?" },
+        { "id": "p6_q4", "category": "Final Governance Dossier", "text": "Has the institution compiled the key documents showing how the project was reviewed and governed?" }
+      ]
+    },
+    "sr": {
+      "title": "Faza 6: Upravljanje podacima, održavanje i dugoročno starateljstvo",
+      "purpose": "Osigurati da digitalizovani materijali ostanu pretraživi, pristupačni, zaštićeni i odgovorno upravljani tokom vremena.",
+      "questions": [
+        { "id": "p6_q1", "category": "Plan upravljanja podacima", "text": "Da li je jasno ko je odgovoran za održavanje materijala i evidencije nakon što projektni tim završi svoj rad?" },
+        { "id": "p6_q2", "category": "Skladištenje i očuvanje", "text": "Da li se održavaju rezervne kopije i da li se redovno proverava njihov integritet i mogućnost povraćaja?" },
+        { "id": "p6_q3", "category": "Provera prava tokom vremena", "text": "Da li postoji proces za rešavanje zahteva nosilaca prava, zahteva za dozvolu ili uklanjanje materijala (takedowns) nakon objavljivanja?" },
+        { "id": "p6_q4", "category": "Konačni dosije o upravljanju", "text": "Da li je institucija prikupila ključne dokumente (Governance Dossier) koji dokazuju kako je projekat pregledan i kako se njime odgovorno upravljalo?" }
+      ]
+    }
+  }
+}

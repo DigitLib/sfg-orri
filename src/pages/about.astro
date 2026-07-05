@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AboutView from '../components/AboutView.jsx';
+---
+<Layout title="About the ORRI Tool">
+  <AboutView client:only="react" />
+</Layout>
