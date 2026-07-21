@@ -1,16 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import PhaseChecklist from '../components/PhaseChecklist.jsx';
-import checklistData from '../data/checklist-data.json';
-
-// Notice we select phase1 here
-const phaseData = checklistData.phase6;
+import { PhasePage } from '../components/PhaseChecklist';
 ---
 
-<Layout title={phaseData.title}>
-  <PhaseChecklist 
-    client:load 
-    phaseKey="phase6" 
-    phaseData={phaseData} 
-  />
+<Layout title="Faza 6 — ORRI Alat">
+  <PhasePage client:load currentPath={Astro.url.pathname} phaseId={6} />
 </Layout>

@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import AboutView from '../components/AboutView.jsx';
+import { AboutPage } from '../components/AboutView';
 ---
-<Layout title="About the ORRI Tool">
-  <AboutView client:only="react" />
+
+<Layout title="O alatu — ORRI">
+  <AboutPage client:load currentPath={Astro.url.pathname} />
 </Layout>

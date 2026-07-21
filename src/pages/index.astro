@@ -1,11 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import DashboardView from '../components/DashboardView.jsx';
-import ExportImport from '../components/ExportImport.jsx';
+import { DashboardPage } from '../components/DashboardView';
 ---
-<Layout title="Monitoring Dashboard">
-  <div class="space-y-6">
-    <ExportImport client:only="react" />
-    <DashboardView client:only="react" />
-  </div>
+
+<Layout title="ORRI Alat">
+  <DashboardPage client:load currentPath={Astro.url.pathname} />
 </Layout>
