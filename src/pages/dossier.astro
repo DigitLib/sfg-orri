@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import DossierView from '../components/DossierView.jsx';
+import { DossierPage } from '../components/DossierView';
 ---
-<Layout title="Governance Dossier">
-  <DossierView client:only="react" />
+
+<Layout title="Dosije — ORRI Alat">
+  <DossierPage client:load currentPath={Astro.url.pathname} />
 </Layout>
